@@ -28,9 +28,7 @@ if( $value ): ?>
 $selected = get_field('field_name');
 
 if( in_array('red', $selected) ) {
-	
 	echo 'Red was selected!';
-	
 }
 
 
@@ -48,3 +46,4 @@ $posts = get_posts(array(
 if( $posts ) {
     //...
 }
+
